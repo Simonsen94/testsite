@@ -1,14 +1,21 @@
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "UA-208583749-1", // Google Analytics / GA
+        id: "GTM-W7RHKK5",
+  
+        includeInDevelopment: false,
+      },
+      },
+      'gatsby-plugin-google-gtag',
+      {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+          trackingIds: [
+            "UA-208583749-1", // Google Analytics / GA
         ],
-        // This object gets passed directly to the gtag config command
-        // This config will be shared across all trackingIds
+
         gtagConfig: {
           optimize_id: "OPT-PZ6DN94",
           anonymize_ip: true,
