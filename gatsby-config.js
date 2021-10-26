@@ -1,7 +1,5 @@
 module.exports = {
   plugins: [
-    'gatsby-plugin-google-gtag',
-    'gatsby-theme-codebushi',
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -24,11 +22,12 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-theme-codebushi`,
-      options: {
-        tailwindConfig: `tailwind.config.js`
-    },  
+    'gatsby-theme-codebushi',
+      {
+        resolve: `gatsby-theme-codebushi`,
+        options: {
+          tailwindConfig: `tailwind.config.js`
+      },  
     },
   ]
 }
