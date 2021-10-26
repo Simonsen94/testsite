@@ -1,5 +1,8 @@
 module.exports = {
   plugins: [
+    'gatsby-plugin-google-tagmanager',
+    'gatsby-plugin-google-gtag',
+    'gatsby-theme-codebushi',
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
@@ -7,15 +10,13 @@ module.exports = {
   
         includeInDevelopment: false,
       },
-      },
-      'gatsby-plugin-google-gtag',
+    },
       {
         resolve: `gatsby-plugin-google-gtag`,
         options: {
           trackingIds: [
             "UA-208583749-1", // Google Analytics / GA
         ],
-
         gtagConfig: {
           optimize_id: "OPT-PZ6DN94",
           anonymize_ip: true,
@@ -32,7 +33,6 @@ module.exports = {
         },
       },
     },
-    'gatsby-theme-codebushi',
     {
       resolve: `gatsby-theme-codebushi`,
       options: {
