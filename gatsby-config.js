@@ -8,6 +8,7 @@ module.exports = {
         includeInDevelopment: false,
       },
     },
+    
     'gatsby-theme-codebushi',
       {
         resolve: `gatsby-theme-codebushi`,
@@ -15,5 +16,6 @@ module.exports = {
           tailwindConfig: `tailwind.config.js`
       },  
     },
-  ]
+    'gatsby-plugin-anti-flicker',
+  ],
 }
