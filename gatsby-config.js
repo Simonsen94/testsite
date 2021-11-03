@@ -1,12 +1,13 @@
 module.exports = {
   plugins: [
+    'gatsby-plugin-anti-flicker',
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-W7RHKK5",
   
         includeInDevelopment: false,
-      },
+      }
     },
     
     'gatsby-theme-codebushi',
@@ -16,6 +17,5 @@ module.exports = {
           tailwindConfig: `tailwind.config.js`
       },  
     },
-    'gatsby-plugin-anti-flicker',
   ],
 }
