@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    'gatsby-plugin-anti-flicker',
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
