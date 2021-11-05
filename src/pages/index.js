@@ -19,9 +19,9 @@ const Index = () => (
             Vækst din digitale forretning
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            LeanCRO er med dig hele vejen på din digitale vækstrejse. Vi hjælper dig med at skræddersy
-            dine kunders brugerrejser og optimerer dine salgskanaler så de opnår deres fulde potentiale. Alt sammen i et tæt samarbejde med henblik
-            på, at gøre din forretning data drevet.
+            LeanCRO er med dig hele vejen på din digitale vækstrejse. Få skræddersyet dine kunders 
+            brugerrejser og optimerert dine salgskanaler, så de altid opnår deres fulde potentiale. 
+            Alt sammen i et tæt samarbejde med henblik på, at gøre din forretning data drevet.
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Læs mere</Button>
