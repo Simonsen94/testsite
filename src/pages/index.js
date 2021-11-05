@@ -16,16 +16,17 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Vækst din digitale forretning
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            LeanCRO er med dig hele vejen på din digitale vækstrejse. Vi hjælper dig med at skræddersy
+            dine kunders brugerrejser og optimerer dine salgskanaler så de opnår deres fulde potentiale. Alt sammen i et tæt samarbejde med henblik
+            på, at gøre din forretning data drevet.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg">Læs mere</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600"></p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
@@ -34,32 +35,33 @@ const Index = () => (
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">De 3 dele af Lean CRO</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Google Analytics</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Bliv data dreven og forstå hvordan din hjemmeside performer. 
+                Vi hjælper med alt fra opsætning til gennemarbejdede analyser.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">Usability tests</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Øget usability leder til en højere konverteringsrate. Vores dybdegående brugerindsigter
+                kan finde op til 85% af alle fejl på din hjemmeside.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">Google Optimize</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Kom igang med eksperimentering og test værdien af jeres ideer.
+                En solid forståelse af Google Optimize kan gøre jeres arbejdsplads
+                til et levende laboratorie.
               </p>
             </Card>
           </div>
