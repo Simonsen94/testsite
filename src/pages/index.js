@@ -16,15 +16,27 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Vækst din digitale forretning
+            Harness your data to rapidly grow your business.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            LeanCRO er med dig hele vejen på din digitale vækstrejse. Få skræddersyet dine kunders 
-            brugerrejser og optimerert dine salgskanaler, så de altid opnår deres fulde potentiale. 
-            Alt sammen i et tæt samarbejde med henblik på, at gøre din forretning data drevet.
+            SMEs face a unique set of challenges in becoming data-driven.
+            The SME Analyst, solve these <em>and</em> rapidly grow your digital business.
+
+            I am an experienced analytics specialist, with a specialty in helping SMEs scale on
+            both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
+            proven process, Lean CRO, to make your SME data-driven, customer-centric and profitable 
+            in the short, medium and long haul.
+
+            I help SMEs in any stage of their digital transformation, and within the following tasks:
+            - Digital strategy formulation
+            - Data layer foundation and tracking
+            - Optimization program
+            - Data reporting
+            - Website auditing and pain point analysis
+            - Dashboard building.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Læs mere</Button>
+            <Button size="lg">Read more</Button>
           </p>
           <p className="mt-4 text-gray-600"></p>
         </div>
