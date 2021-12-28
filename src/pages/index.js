@@ -16,28 +16,29 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Harness your data to rapidly grow your business.
+            Transform data to actionable business insights.
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
             SMEs face a unique set of challenges in becoming data-driven.
             The SME Analyst, solve these <em>and</em> rapidly grow your digital business.
-          </p>
-          <p>
+          <br/>
             I am an experienced analytics specialist, with a specialty in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
-            proven process, Lean CRO, to make your SME data-driven, customer-centric and profitable 
-            in the short, medium and long haul.
-
-            I help SMEs in any stage of their digital transformation, and within the following tasks:
-            - Digital strategy formulation
-            - Data layer foundation and tracking
-            - Optimization program
-            - Data reporting
-            - Website auditing and pain point analysis
-            - Dashboard building.
+            proven process, Lean CRO, to make your SME <em>data-driven</em>, <em>customer-centric</em> and <em>profitable</em> 
+            in the short, medium and long term.
+          <br/>
+            I help SMEs in any stage of their digital transformation, and within the following areas:
+            <ul>
+              <li>Digital strategy formulation</li>
+              <li>Data layer foundation and tracking</li>
+              <li>Optimization program</li>
+              <li>Data reporting</li>
+              <li>Website auditing and pain point analysis</li>
+              <li>Dashboard building.</li>
+            </ul>
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Read more</Button>
+            <Button size="lg">Get in contact</Button>
           </p>
           <p className="mt-4 text-gray-600"></p>
         </div>
@@ -48,23 +49,25 @@ const Index = () => (
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">De 3 dele af Lean CRO</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">My services include</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Analytics</p>
               <p className="mt-4">
-                Bliv data dreven og forstå hvordan din hjemmeside performer. 
-                Vi hjælper med alt fra opsætning til gennemarbejdede analyser.
+                Activate your customer data and monitor your website performance closely to ensure 
+                it meets your KPI's. We help with everything from weekly reports to thorough commercial 
+                analyses.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Usability tests</p>
+              <p className="font-semibold text-xl">Usability testing</p>
               <p className="mt-4">
-                Øget usability leder til en højere konverteringsrate. Vores dybdegående brugerindsigter
-                kan finde op til 85% af alle fejl på din hjemmeside.
+                Discover up to 80% of your websites usability errors, and understand 
+                why your customers act as they do and how to increase website satisfaction
+                and conversions. 
               </p>
             </Card>
           </div>
@@ -72,9 +75,27 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Optimize</p>
               <p className="mt-4">
-                Kom igang med eksperimentering og test værdien af jeres ideer.
-                En solid forståelse af Google Optimize kan gøre jeres arbejdsplads
-                til et levende laboratorie.
+                Tailormake your website to match your visitors unique preferences and increase 
+                revenue. Understand how scientific methods can secure valid A/B test results with
+                significant uplift potential.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Google Data Studio</p>
+              <p className="mt-4">
+                Gather your primary- and secondary data sources in one powerfull dashboard 
+                tailored to your unique business needs. 
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Google Tag Manager</p>
+              <p className="mt-4">
+                Get a secure and scalable data layer ready to meet the demands of the most 
+                ambitious digital strategy.
               </p>
             </Card>
           </div>
