@@ -21,7 +21,8 @@ const Index = () => (
           <p className="text-xl lg:text-2xl mt-6 font-light">
             SMEs face a unique set of challenges in becoming data-driven.
             The SME Analyst, solve these <em>and</em> rapidly grow your digital business.
-
+          </p>
+          <p>
             I am an experienced analytics specialist, with a specialty in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
             proven process, Lean CRO, to make your SME data-driven, customer-centric and profitable 
