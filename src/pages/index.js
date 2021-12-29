@@ -65,7 +65,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Usability testing</p>
-              <p classNameP="mt-4 text-left">
+              <p className="mt-4 text-left">
                 Discover up to 80% of your websites usability errors, and understand 
                 why your customers act as they do and how to increase website satisfaction
                 and conversions. 
@@ -75,7 +75,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Optimize</p>
-              <p classNameP="mt-4 text-left">
+              <p className="mt-4 text-left">
                 Tailormake your website to match your visitors unique preferences and increase 
                 revenue. Understand how scientific methods can secure valid A/B test results with
                 significant uplift potential.
@@ -85,7 +85,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Data Studio</p>
-              <p classNameP="mt-4 text-left">
+              <p className="mt-4 text-left">
                 Gather your primary- and secondary data sources in one powerful dashboard
                 tailored to your unique business needs.
               </p>
