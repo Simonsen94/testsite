@@ -98,10 +98,11 @@ const Index = () => (
       id="blog"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Blog Backlog</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+          One library full of all the best knowledge pills related to eBusiness and Analytics.
+          Each blog is concise, to the point, and offers actionable insights to grow your business.
+          This is my way of giving back to the analytics community.
           </p>
         </div>
       }
