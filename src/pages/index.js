@@ -24,8 +24,8 @@ const Index = () => (
           <br/><br/>
             I am an experienced analytics specialist, with a specialty in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
-            proven process, Lean CRO, to make your SME <em>data-driven</em>, <em>customer-centric</em> and <em>profitable</em>  
-            in the short, medium and long term.
+            proven process, Lean CRO, to make your SME <em>data-driven</em>, <em>customer-centric</em> 
+            and <em>profitable</em> in the short, medium and long term.
           <br/><br/>
             I help SMEs in any stage of their digital transformation, and within the following areas:
             <br/><br/>
@@ -55,7 +55,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Analytics</p>
-              <p classNameP="mt-4">
+              <p className="mt-4 text-left">
                 Activate your customer data and monitor your website performance closely to ensure 
                 it meets your KPI's. We help with everything from weekly reports to thorough commercial 
                 analyses.
@@ -65,7 +65,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Usability testing</p>
-              <p classNameP="mt-4">
+              <p classNameP="mt-4 text-left">
                 Discover up to 80% of your websites usability errors, and understand 
                 why your customers act as they do and how to increase website satisfaction
                 and conversions. 
@@ -75,7 +75,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Optimize</p>
-              <p classNameP="mt-4">
+              <p classNameP="mt-4 text-left">
                 Tailormake your website to match your visitors unique preferences and increase 
                 revenue. Understand how scientific methods can secure valid A/B test results with
                 significant uplift potential.
@@ -85,7 +85,7 @@ const Index = () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Data Studio</p>
-              <p classNameP="mt-4">
+              <p classNameP="mt-4 text-left">
                 Gather your primary- and secondary data sources in one powerful dashboard
                 tailored to your unique business needs.
               </p>
