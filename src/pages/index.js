@@ -18,7 +18,7 @@ const Index = () => (
           <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
             From data to actionable insights.
           </h2>
-          <p className="text-lg lg:text-xl mt-6 font-light">
+          <p className="text-lg lg:text-xl mt-6 font-light text-justify">
             SMEs face a unique set of challenges in becoming data-driven.
             The SME Analyst, solve these <em>and</em> rapidly grows your digital business.
           <br/><br/>
@@ -29,7 +29,7 @@ const Index = () => (
           <br/><br/>
             I help SMEs in any stage of their digital transformation, and within the following areas:
             <br/><br/>
-            <ul>
+            <ul class="list-disc">
               <li>Digital strategy formulation</li>
               <li>Data layer foundation and tracking</li>
               <li>Optimization program</li>
@@ -37,6 +37,7 @@ const Index = () => (
               <li>Website auditing and pain point analysis</li>
               <li>Dashboard building.</li>
             </ul>
+            <br/><br/>
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get in contact</Button>
@@ -95,7 +96,7 @@ const Index = () => (
       </div>
     </section>
     <SplitSection
-      id="features"
+      id="blog"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
