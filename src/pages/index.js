@@ -37,7 +37,6 @@ const Index = () => (
               <li>Website auditing and pain point analysis</li>
               <li>Dashboard building.</li>
             </ul>
-            <br/><br/>
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get in contact</Button>
