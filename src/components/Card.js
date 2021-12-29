@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Card = ({ className, children }) => (
+const Card = ({ className, classNameP, children }) => (
   <div
-    className={`p-12 rounded-lg border border-solid border-gray-200 text-justify ${className}`}
+    className={`p-12 rounded-lg border border-solid border-gray-200 ${className}`}
+    classNameP={`text-justify ${classNameP}`}
     style={{
       boxShadow: '0 10px 28px rgba(0,0,0,.08)'
     }}
