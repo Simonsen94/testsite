@@ -15,10 +15,10 @@ const Index = () => (
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h2 className="text-3xl lg:text-5xl xl:text-6xl font-bold leading-none">
+          <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
             From data to actionable insights.
           </h2>
-          <p className="text-lg lg:text-2xl mt-6 font-light">
+          <p className="text-lg lg:text-xl mt-6 font-light">
             SMEs face a unique set of challenges in becoming data-driven.
             The SME Analyst, solve these <em>and</em> rapidly grows your digital business.
           <br/><br/>
