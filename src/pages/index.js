@@ -16,7 +16,7 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            From data to actionable insights.
+            Silas.
           </h2>
           <p className="text-lg lg:text-xl mt-6 font-light">
             SMEs face a unique set of challenges in becoming data-driven.
@@ -28,6 +28,7 @@ const Index = () => (
             in the short, medium and long term.
           <br/><br/>
             I help SMEs in any stage of their digital transformation, and within the following areas:
+            <br/><br/>
             <ul>
               <li>Digital strategy formulation</li>
               <li>Data layer foundation and tracking</li>

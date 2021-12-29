@@ -16,8 +16,8 @@ const Header = () => (
         <AnchorLink className="px-4" href="#services">
           Services
         </AnchorLink>
-        <AnchorLink className="px-4" href="#features">
-          Features
+        <AnchorLink className="px-4" href="#blog">
+          Blog
         </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
           Stats
@@ -27,7 +27,7 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <Button className="text-sm">Get in contact</Button>
       </div>
     </div>
   </header>
