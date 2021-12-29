@@ -15,18 +15,18 @@ const Index = () => (
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Transform data to actionable business insights.
-          </h1>
+          <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+            From data to actionable insights.
+          </h2>
           <p className="text-xl lg:text-2xl mt-6 font-light">
             SMEs face a unique set of challenges in becoming data-driven.
-            The SME Analyst, solve these <em>and</em> rapidly grow your digital business.
-          <br/>
+            The SME Analyst, solve these <em>and</em> rapidly grows your digital business.
+          <br/><br/>
             I am an experienced analytics specialist, with a specialty in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
             proven process, Lean CRO, to make your SME <em>data-driven</em>, <em>customer-centric</em> and <em>profitable</em> 
             in the short, medium and long term.
-          <br/>
+          <br/><br/>
             I help SMEs in any stage of their digital transformation, and within the following areas:
             <ul>
               <li>Digital strategy formulation</li>
@@ -85,17 +85,8 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Data Studio</p>
               <p className="mt-4">
-                Gather your primary- and secondary data sources in one powerfull dashboard 
-                tailored to your unique business needs. 
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Google Tag Manager</p>
-              <p className="mt-4">
-                Get a secure and scalable data layer ready to meet the demands of the most 
-                ambitious digital strategy.
+                Gather your primary- and secondary data sources in one powerful dashboard
+                tailored to your unique business needs.
               </p>
             </Card>
           </div>
