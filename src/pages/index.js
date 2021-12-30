@@ -29,7 +29,7 @@ const Index = () => (
           <br/><br/>
             I help SMEs in any stage of their digital transformation, and within the following areas:
             <br/><br/>
-            <ul class="list-disc">
+            <ul class="list-disc mb-6">
               <li>Digital strategy formulation</li>
               <li>Data layer foundation and tracking</li>
               <li>Optimization program</li>
@@ -38,7 +38,7 @@ const Index = () => (
               <li>Dashboard building.</li>
             </ul>
           </p>
-          <p className="mt-8 md:mt-12">
+          <p className="mt-8 md:mt-6">
             <Button size="lg">Get in contact</Button>
           </p>
           <p className="mt-4 text-gray-600"></p>
@@ -50,7 +50,7 @@ const Index = () => (
     </section>
     <section id="services" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">My services include</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">My services</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
