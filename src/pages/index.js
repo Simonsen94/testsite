@@ -24,19 +24,11 @@ const Index = () => (
           <br/><br/>
             I am an experienced analytics specialist, with a specialty in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
-            proven process, Lean CRO, to make your SME <em>data-driven</em>, <em>customer-centric</em> 
+            proven process, Lean CRO, to make your SME <em>data-driven</em>, <em>customer-centric</em>  
             and <em>profitable</em> in the short, medium and long term.
           <br/><br/>
-            I help SMEs in any stage of their digital transformation, and within the following areas:
-            <br/><br/>
-            <ul class="list-disc mb-6">
-              <li>Digital strategy formulation</li>
-              <li>Data layer foundation and tracking</li>
-              <li>Optimization program</li>
-              <li>Data reporting</li>
-              <li>Website auditing and pain point analysis</li>
-              <li>Dashboard building.</li>
-            </ul>
+            I help SMEs in any stage of their digital transformation with strategy formulation, optimization 
+            data layer foundation.
           </p>
           <p className="mt-8 md:mt-6">
             <Button size="lg">Get in contact</Button>
