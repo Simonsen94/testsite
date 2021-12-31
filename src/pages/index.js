@@ -22,7 +22,7 @@ const Index = () => (
             SMEs face a unique set of challenges in becoming data-driven.
             The SME Analyst, solve these <em>and</em> rapidly grows your digital business.
           <br/><br/>
-            I am an experienced analytics specialist, with a specialty in helping SMEs scale on
+            I am an experienced analytics specialist, with an expertise in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
             proven process, Lean CRO, to make your SME data-driven, customer-centric and  
             profitable in the short, medium and long term.
@@ -49,7 +49,7 @@ const Index = () => (
               <p className="font-semibold text-xl">Google Analytics</p>
               <p className="mt-4 text-left">
                 Activate your customer data and monitor your website performance closely to ensure 
-                it meets your KPI's. We help with everything from weekly reports to thorough commercial 
+                it meets your KPI's. I help with everything from weekly reports to thorough commercial 
                 analyses.
               </p>
             </Card>
@@ -58,8 +58,8 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Usability testing</p>
               <p className="mt-4 text-left">
-                Discover up to 80% of your websites usability errors, and understand 
-                why your customers act as they do and how to increase website satisfaction
+                Discover up to 80% of your websites usability errors. Understand why and where 
+                your customers experience frictions how to increase website satisfaction 
                 and conversions. 
               </p>
             </Card>
@@ -78,8 +78,8 @@ const Index = () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Google Data Studio</p>
               <p className="mt-4 text-left">
-                Gather your primary- and secondary data sources in one powerful dashboard
-                tailored to your unique business needs.
+                Gather all your primary- and secondary data sources in one powerful dashboard
+                tailored to your unique business needs. Never loose sight of important insights.
               </p>
             </Card>
           </div>
@@ -90,11 +90,11 @@ const Index = () => (
       id="blog"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Blog Backlog</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Accessible Analytics</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          One library full of all the best knowledge pills related to eBusiness and Analytics.
+          All the best knowledge pills related to eBusiness and Analytics in one library.
           Each blog is concise, to the point, and offers actionable insights to grow your business.
-          This is my way of giving back to the analytics community.
+          My blog posts are written with the intend to make it usable by as many people as possible.
           </p>
         </div>
       }
@@ -105,11 +105,13 @@ const Index = () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            The Lean CRO Model
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            Is a scientific developed model, which can help your organization become 
+            Data-driven, Customer-centric, and Profitable. The Lean CRO Model can turn your 
+            organization into a learning laboratory, which can build scientific eCommerce 
+            experiments that show significant uplift potential.
           </p>
         </div>
       }
@@ -119,11 +121,14 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            Not succeeding with eCommerce?
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            SMEs are faced with scarce resources, which require them to adopt new 
+            IT effectively, efficiently and at far lower cost than Global companies. 
+            The Lean CRO model is a cheap and easily comprehendable tool designed to 
+            fit into any SME with limited technical capabilities and at the fraction
+            of the cost of hiring an eCommerce Manager or consultancy.
           </p>
         </div>
       }
