@@ -79,7 +79,7 @@ const Index = () => (
               <p className="font-semibold text-xl">Google Data Studio</p>
               <p className="mt-4 text-left">
                 Gather all your primary- and secondary data sources in one powerful dashboard
-                tailored to your unique business needs. Never loose sight of important insights.
+                tailored to your unique business needs. Never loose sight of important insights again.
               </p>
             </Card>
           </div>
