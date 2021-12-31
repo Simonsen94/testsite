@@ -69,7 +69,7 @@ const Index = () => (
               <p className="font-semibold text-xl">Google Optimize</p>
               <p className="mt-4 text-left">
                 Tailormake your website to match your visitors unique preferences and increase 
-                revenue. Understand how scientific methods can secure valid A/B test results with
+                revenue. Understand how scientific methods secure valid A/B test results with
                 significant uplift potential.
               </p>
             </Card>
