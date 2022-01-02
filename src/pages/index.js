@@ -16,16 +16,17 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            From data to actionable insights.
+            Stop Guessing. <u>Start Growing</u>.
           </h2>
-          <p className="text-lg lg:text-xl mt-6 font-light text-justify">
-            SMEs face a unique set of challenges in becoming data-driven.
-            The SME Analyst, solve these <em>and</em> rapidly grows your digital business.
+          <p className="text-lg lg:text-xl mt-6 font-light text-left">
+            SMEs face a unique set of challenges in succeeding with eCommerce.
+            The SME Analyst, solve these and rapidly grows your digital business
+            by integrating services from the Google Marketing Platform.
           <br/><br/>
             I am an experienced analytics specialist, with an expertise in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
-            proven process, Lean CRO, to make your SME data-driven, customer-centric and  
-            profitable in the short, medium and long term.
+            proven process, Lean CRO, to make your SME <b>data-driven</b>, <b>customer-centric</b> and  
+            <b>profitable</b> in the short, medium and long term.
           <br/><br/>
             I help SMEs in any stage of their digital transformation with strategy formulation, optimization 
             and data layer foundation.
@@ -90,11 +91,15 @@ const Index = () => (
       id="blog"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Accessible Analytics</h3>
+          <h3 className="text-3xl font-semibold leading-tight">
+          Not succeeding with eCommerce? 
+          </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          All the best knowledge pills related to eBusiness and Analytics in one library.
-          Each blog is concise, to the point, and offers actionable insights to grow your business.
-          My blog posts are written with the intend to make it usable by as many people as possible.
+            SMEs are faced with scarce resources, which require them to adopt new 
+            IT effectively, efficiently and at far lower cost than Global companies. 
+            The Lean CRO model is a cheap and easily comprehendable tool designed to 
+            fit into any SME with limited technical capabilities and at the fraction
+            of the cost of hiring an eCommerce Manager or consultancy.
           </p>
         </div>
       }
@@ -121,14 +126,11 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Not succeeding with eCommerce?
+            Accessible Analytics
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            SMEs are faced with scarce resources, which require them to adopt new 
-            IT effectively, efficiently and at far lower cost than Global companies. 
-            The Lean CRO model is a cheap and easily comprehendable tool designed to 
-            fit into any SME with limited technical capabilities and at the fraction
-            of the cost of hiring an eCommerce Manager or consultancy.
+            All the best knowledge pills related to eCommerce and Analytics in one library.
+            Each blog is concise, to the point, and offers actionable insights to grow your business today.
           </p>
         </div>
       }
