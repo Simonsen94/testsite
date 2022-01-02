@@ -16,7 +16,7 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Stop Guessing & <u>Start Growing</u>
+            Stop Guessing & Start Growing
           </h2>
           <p className="text-lg lg:text-xl mt-6 font-light text-left">
             SMEs face a unique set of challenges in succeeding with eCommerce.
@@ -25,8 +25,8 @@ const Index = () => (
           <br/><br/>
             I am an experienced analytics specialist, with an expertise in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
-            proven process, Lean CRO, to make your SME <b>data-driven</b>, <b>customer-centric</b> and  
-            <b>profitable</b> in the short, medium and long term.
+            proven process, Lean CRO, to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
+            the short, medium and long term.
           <br/><br/>
             I help SMEs in any stage of their digital transformation with strategy formulation, optimization 
             and data layer foundation.
