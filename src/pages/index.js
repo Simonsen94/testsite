@@ -16,7 +16,7 @@ const Index = () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Stop Guessing. <u>Start Growing</u>.
+            Stop Guessing & <u>Start Growing</u>
           </h2>
           <p className="text-lg lg:text-xl mt-6 font-light text-left">
             SMEs face a unique set of challenges in succeeding with eCommerce.
@@ -88,7 +88,6 @@ const Index = () => (
       </div>
     </section>
     <SplitSection
-      id="blog"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
@@ -123,6 +122,7 @@ const Index = () => (
       secondarySlot={<SvgCharts />}
     />
     <SplitSection
+      id="blog"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
@@ -141,13 +141,13 @@ const Index = () => (
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="+81.75%" secondaryText="Revenue increase" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="+180.81%" secondaryText="Revenue per Session Lift" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="+74.15%" secondaryText="Conversion rate increase" />
           </div>
         </div>
       </div>
@@ -167,10 +167,11 @@ const Index = () => (
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        Download a FREE copy of the LEAN CRO process and learn how it can help your organization double 
+        your sales.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button size="xl">Claim your free copy</Button>
       </p>
     </section>
   </Layout>
