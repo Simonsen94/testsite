@@ -96,7 +96,7 @@ const Index = () => (
           <p className="mt-8 text-xl font-light leading-relaxed">
             SMEs are faced with scarce resources, which require them to adopt new 
             IT effectively, efficiently and at far lower cost than Global companies. 
-            The Lean CRO model is a cheap and easily comprehendable tool designed to 
+            The Lean CRO Model is a cheap and easily comprehendable tool designed to 
             fit into any SME with limited technical capabilities and at the fraction
             of the cost of hiring an eCommerce Manager or consultancy.
           </p>
@@ -113,7 +113,7 @@ const Index = () => (
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Is a scientific developed model, which can help your organization become 
-            Data-driven, Customer-centric, and Profitable. The Lean CRO Model can turn your 
+            data-driven, customer-centric, and profitable. The Lean CRO Model can turn your 
             organization into a learning laboratory, which can build scientific eCommerce 
             experiments that show significant uplift potential.
           </p>
@@ -167,11 +167,11 @@ const Index = () => (
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
       <p className="mt-8 text-xl font-light">
-        Download a FREE copy of the LEAN CRO process and learn how it can help your organization double 
-        your sales.
+        Download a FREE copy of the LEAN CRO Model and learn how it can help your organization double 
+        your online sales.
       </p>
       <p className="mt-8">
-        <Button size="xl">Claim your free copy</Button>
+        <Button size="xl">Claim your free copy today</Button>
       </p>
     </section>
   </Layout>
