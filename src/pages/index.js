@@ -9,6 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import Errorpage from '../pages/Errorpage';
 
 const Index = () => (
   <Layout>
@@ -32,7 +33,9 @@ const Index = () => (
             and data layer foundation.
           </p>
           <p className="mt-8 md:mt-6">
-            <Button size="lg">Get in contact</Button>
+            <Link to="/Errorpage">
+              <Button size="lg">Get in contact</Button>
+            </Link>
           </p>
           <p className="mt-4 text-gray-600"></p>
         </div>
