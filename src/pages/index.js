@@ -10,7 +10,6 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import { Link } from 'react-router';
-import Errorpage from '../pages/Errorpage';
 
 const Index = () => (
   <Layout>
@@ -33,11 +32,9 @@ const Index = () => (
             I help SMEs in any stage of their digital transformation with strategy formulation, optimization 
             and data layer foundation.
           </p>
-          <p className="mt-8 md:mt-6">
-            <Link to="Errorpage">
-              <Button size="lg">Get in contact</Button>
-            </Link>
-          </p>
+            
+          <Button className="mt-8 md:mt-6" size="lg">Get in contact</Button>
+            
           <p className="mt-4 text-gray-600"></p>
         </div>
         <div className="lg:w-1/2">
