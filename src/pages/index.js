@@ -32,7 +32,7 @@ const Index = () => (
             and data layer foundation.
           </p>
           <p className="mt-8 md:mt-6">
-          <Button size="lg">
+          <Button size="lg" href="NotFound">
             Get in contact
           </Button>
           </p>
