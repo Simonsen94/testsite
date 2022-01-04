@@ -9,6 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import { Link } from 'react-router';
 import Errorpage from '../pages/Errorpage';
 
 const Index = () => (
@@ -33,7 +34,7 @@ const Index = () => (
             and data layer foundation.
           </p>
           <p className="mt-8 md:mt-6">
-            <Link to="/Errorpage">
+            <Link to="Errorpage">
               <Button size="lg">Get in contact</Button>
             </Link>
           </p>
