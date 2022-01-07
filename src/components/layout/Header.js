@@ -2,6 +2,7 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
+import Errorpage from '../../pages/Errorpage';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -27,7 +28,7 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Get in contact</Button>
+        <Button className="text-sm"><link to="/errorpage">Get in contact</link>Get in contact</Button> 
       </div>
     </div>
   </header>
