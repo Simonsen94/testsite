@@ -28,7 +28,7 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm"><link to="/errorpage">Get in contact</link>Get in contact</Button> 
+        <Button className="text-sm">Get in contact</Button> 
       </div>
     </div>
   </header>
