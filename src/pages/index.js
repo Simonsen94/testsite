@@ -134,6 +134,11 @@ const Index = () => (
             All the best knowledge pills related to eCommerce and Analytics in one library.
             Each blog is concise, to the point, and offers actionable insights to grow your business today.
           </p>
+          <p className="mt-8 md:mt-6">
+          <Button size="lg" href="NotFound">
+            Read more
+          </Button>
+          </p>
         </div>
       }
       secondarySlot={<SvgCharts />}
