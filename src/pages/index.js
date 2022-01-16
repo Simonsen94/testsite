@@ -9,7 +9,6 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-import {Link} from 'react-router';
 
 const Index = () => (
   <Layout>
@@ -33,8 +32,8 @@ const Index = () => (
             and data layer foundation.
           </p>
           <p className="mt-8 md:mt-6">
-          <Button size="lg" href="NotFound">
-            <Link to={"/errorpage"}>Get in contact</Link>
+          <Button size="lg">
+            <a href="/Errorpage">Get in contact</a>
           </Button>
           </p>
           <p className="mt-4 text-gray-600"></p>
@@ -63,7 +62,7 @@ const Index = () => (
               <p className="font-semibold text-xl">Usability testing</p>
               <p className="mt-4 text-left">
                 Discover up to 80% of your websites usability errors. Understand why and where 
-                your customers experience frictions how to increase website satisfaction 
+                your customers experience frictions and how to increase website satisfaction 
                 and conversions. 
               </p>
             </Card>

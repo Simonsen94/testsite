@@ -4,8 +4,10 @@ const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+        <h2 className="text-lg font-semibold">About Me</h2>
+        <p className="mt-5">I'm a Copenhagen based Optimization and Analytics specialist with more
+        than 2 years of experience helping B2B and B2C companies. My educational background is within
+        eBusiness and I hold a MSc in Business Administration and eBusiness from CBS.</p>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
