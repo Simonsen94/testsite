@@ -33,8 +33,7 @@ const Index = () => (
           </p>
           <p className="mt-8 md:mt-6">
           <Button size="lg">
-            <p>Get in contact</p>
-            <a href="/Errorpage">Get in contact</a>
+            <a href="/Errorpage"><p>Get in contact</p></a>
           </Button>
           </p>
           <p className="mt-4 text-gray-600"></p>
