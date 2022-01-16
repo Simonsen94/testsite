@@ -9,9 +9,8 @@ const Header = () => (
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
           <LogoIcon />
-          <a href="/Index"><p>Get in contact</p></a>
         </div>
-        SME Analyst
+        <a href="/Index"><p>SME Analyst</p></a>
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#services">
