@@ -9,6 +9,7 @@ const Header = () => (
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
           <LogoIcon />
+          <a href="/index"></a>
         </div>
         SME Analyst
       </div>
