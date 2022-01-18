@@ -2,6 +2,7 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
+import { Link } from "gatsby";
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -10,7 +11,7 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        <a href="/Index">SME Analyst</a>
+        <Link to="/" style={{ color: "black" }}>SME Analyst</Link>
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#services">

@@ -9,6 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import { Link } from 'gatsby';
 
 const Index = () => (
   <Layout>
@@ -27,14 +28,11 @@ const Index = () => (
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
             proven process, Lean CRO, to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
             the short, medium and long term.
-          <br/><br/>
-            I help SMEs in any stage of their digital transformation with strategy formulation, optimization 
-            and data layer foundation.
           </p>
           <p className="mt-8 md:mt-6">
-          <Button size="lg">
-            <a href="/Errorpage">Get in contact</a>
-          </Button>
+          <Link to="/contact">
+            Get in contact  
+          </Link>
           </p>
           <p className="mt-4 text-gray-600"></p>
         </div>
@@ -135,9 +133,9 @@ const Index = () => (
             Each blog is concise, to the point, and offers actionable insights to grow your business today.
           </p>
           <p className="mt-8 md:mt-6">
-          <Button size="lg" href="NotFound">
+          <Link to="/blog">
             Read more
-          </Button>
+          </Link>
           </p>
         </div>
       }
