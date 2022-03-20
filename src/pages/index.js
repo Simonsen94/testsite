@@ -13,7 +13,7 @@ import { Link } from 'gatsby';
 
 const Index = () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
+    <section className="pt-20 md:pt-30">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
@@ -24,17 +24,20 @@ const Index = () => (
             The SME Analyst, solve these and rapidly grows your digital business
             by integrating services from the Google Marketing Platform.
           <br/><br/>
-            I am an experienced analytics specialist, with an expertise in helping SMEs scale on
+            I am an experienced analytics specialist, with expertise in helping SMEs scale on
             both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
             proven process, Lean CRO, to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
             the short, medium and long term.
           </p>
-          <p className="mt-8 md:mt-6">
-          <Link to="/contact">
-            Get in contact  
-          </Link>
-          </p>
-          <p className="mt-4 text-gray-600"></p>
+          <div class="py-4">
+            <Button>
+              <div className="p-1">
+                <Link to="/contact" class="text-white">
+                  Get in contact
+                </Link>
+              </div> 
+            </Button>
+          </div>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
@@ -43,7 +46,7 @@ const Index = () => (
     </section>
     <section id="services" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">My services</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">My expertise</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
@@ -132,11 +135,15 @@ const Index = () => (
             All the best knowledge pills related to eCommerce and Analytics in one library.
             Each blog is concise, to the point, and offers actionable insights to grow your business today.
           </p>
-          <p className="mt-8 md:mt-6">
-          <Link to="/blog">
-            Read more
-          </Link>
-          </p>
+          <div class="py-4">
+            <Button>
+              <div className="p-1">
+                <Link to="/blog" class="text-white">
+                  Read more
+                </Link>
+              </div> 
+            </Button>
+          </div>
         </div>
       }
       secondarySlot={<SvgCharts />}
@@ -175,9 +182,13 @@ const Index = () => (
         Download a FREE copy of the LEAN CRO Model and learn how it can help your organization double 
         your online sales.
       </p>
-      <p className="mt-8">
-        <Button size="xl">Claim your free copy today</Button>
-      </p>
+      <div className="mt-8">
+        <Button size="xl">
+          <Link to="/errorpage" class="text-white">
+            Claim your free copy today
+          </Link>
+        </Button>
+      </div>
     </section>
   </Layout>
 );
