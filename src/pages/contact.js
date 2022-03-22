@@ -12,22 +12,22 @@ const Contact = () => (
             <section className="py-0 lg:pb-8 lg:pt-4">
             <h2 className="text-3xl lg:text-5xl font-semibold text-center">Fill out the form</h2>
             
-            <Card className="mb-8 mx-40">
+            <Card className="mb-8 md:mx-40">
             <p className="font-semibold text-xl">Name</p>
                 <input type="text" placeholder="Enter here" name="name" id="name" />
             </Card>
 
-            <Card className="mb-8 mx-40">
+            <Card className="mb-8 md:mx-40">
             <p className="font-semibold text-xl">Email</p>
                 <input type="email" placeholder="Enter here" name="email" id="email" />
             </Card>
 
-            <Card className="mb-8 mx-40">
+            <Card className="mb-8 md:mx-40">
             <p className="font-semibold text-xl">Subject</p>
                 <input type="text" placeholder="Enter here" name="subject" id="subject" />
             </Card>
 
-            <Card className="mx-40">
+            <Card className="md:mx-40">
             <p className="font-semibold text-xl">Add description</p>    
                 <textarea name="message" border="#fff" placeholder="Example text" maxLength={5000} id="message" rows="5" />
             </Card>
