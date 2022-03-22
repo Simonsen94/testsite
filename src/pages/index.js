@@ -13,20 +13,18 @@ import { Link } from 'gatsby';
 
 const Index = () => (
   <Layout>
-    <section className="pt-20 md:pt-30">
+    <section className="pt-10 md:pt-30">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h2 className="text-2xl lg:text-5xl xl:text-6xl font-bold leading-none">
             Stop Guessing & Start Growing
           </h2>
           <p className="text-lg lg:text-xl mt-6 font-light text-left">
-            SMEs face a unique set of challenges in succeeding with eCommerce.
-            The SME Analyst, solve these and rapidly grows your digital business
-            by integrating services from the Google Marketing Platform.
+            The SME Analyst provide expert knowledge on key features of the Google Marketing Platform
+            and how SMEs can leverage these to grow their digital business.
           <br/><br/>
-            I am an experienced analytics specialist, with expertise in helping SMEs scale on
-            both the B2B and B2C market. I provide eCommerce Manager Knowledge and a scientifically
-            proven process, Lean CRO, to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
+            I help SMEs scale digitally on both the B2B and B2C market. 
+            I provide eCommerce Manager Knowledge to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
             the short, medium and long term.
           </p>
           <div class="py-4">
@@ -44,7 +42,7 @@ const Index = () => (
         </div>
       </div>
     </section>
-    <section id="services" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="services" className="py-20 lg:pb-20 lg:pt-20">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">My expertise</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -101,7 +99,7 @@ const Index = () => (
             IT effectively, efficiently and at far lower cost than Global companies. 
             The Lean CRO Model is a cheap and easily comprehendable tool designed to 
             fit into any SME with limited technical capabilities and at the fraction
-            of the cost of hiring an eCommerce Manager or consultancy.
+            of the cost of hiring an eCommerce Manager, external developer or consultancy.
           </p>
         </div>
       }
@@ -148,7 +146,7 @@ const Index = () => (
       }
       secondarySlot={<SvgCharts />}
     />
-    <section id="stats" className="py-20 lg:pt-32">
+    <section id="stats" className="py-20 lg:pt-10 bg-gray-200">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -164,7 +162,7 @@ const Index = () => (
         </div>
       </div>
     </section>
-    <section id="testimonials" className="py-20 lg:py-40">
+    <section id="testimonials" className="py-20 lg:py-20">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
