@@ -182,7 +182,7 @@ const Index = () => (
       </p>
       <div className="mt-8">
         <Button size="xl">
-          <Link to="/errorpage" class="text-white">
+          <Link to="/errorpage" style={{ color: "white" }}>
             Claim your free copy today
           </Link>
         </Button>
