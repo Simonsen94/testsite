@@ -19,18 +19,12 @@ const Header = () => (
         <Link to="/" style={{ color: "black" }} className='px-4'>
           Home
         </Link>
-        <Link to="/services" style={{ color: "black" }} className="px-4">
-          Services
-        </Link>
         <Link to="/blog" style={{ color: "black" }} className="px-4 font-semibold">
           Blog
         </Link>
-        <AnchorLink className="px-4" style={{ color: "black" }} href="#stats">
-          Stats
-        </AnchorLink>
-        <AnchorLink className="px-4" style={{ color: "black" }} href="#testimonials">
-          Testimonials
-        </AnchorLink>
+        <Link to="/services" style={{ color: "black" }} className="px-4">
+          Services
+        </Link>
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">

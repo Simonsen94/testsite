@@ -91,7 +91,7 @@ const Index = () => (
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
+          <h3 className=" text-center text-3xl font-semibold leading-tight">
           Not succeeding with eCommerce? 
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
@@ -109,7 +109,7 @@ const Index = () => (
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
+          <h3 className="text-center text-3xl font-semibold leading-tight">
             The Lean CRO Model
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
@@ -126,16 +126,16 @@ const Index = () => (
       id="blog"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
+          <h3 className="text-center text-3xl font-semibold leading-tight">
             Accessible Analytics
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             All the best knowledge pills related to eCommerce and Analytics in one library.
             Each blog is concise, to the point, and offers actionable insights to grow your business today.
           </p>
-          <div class="py-4">
+          <div class="text-center py-4">
             <Button>
-              <div className="p-1">
+              <div className="text-center p-1">
                 <Link to="/blog" class="text-white">
                   Read more
                 </Link>
