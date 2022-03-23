@@ -30,7 +30,7 @@ const Index = () => (
           <div class="py-4">
             <Button>
               <div className="p-1">
-                <Link to="/contact" class="text-white">
+                <Link to="/contact" style={{ color: "white" }}>
                   Get in contact
                 </Link>
               </div> 
@@ -48,7 +48,7 @@ const Index = () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Google Analytics</p>
+              <p className="font-bold text-xl">Google Analytics</p>
               <p className="mt-4 text-left">
                 Activate your customer data and monitor your website performance closely to ensure 
                 it meets your KPI's. I help with everything from weekly reports to thorough commercial 
@@ -58,7 +58,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Usability testing</p>
+              <p className="font-bold text-xl">Usability testing</p>
               <p className="mt-4 text-left">
                 Discover up to 80% of your websites usability errors. Understand why and where 
                 your customers experience frictions and how to increase website satisfaction 
@@ -68,7 +68,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Google Optimize</p>
+              <p className="font-bold text-xl">Google Optimize</p>
               <p className="mt-4 text-left">
                 Tailormake your website to match your visitors unique preferences and increase 
                 revenue. Understand how scientific methods secure valid A/B test results with
@@ -78,7 +78,7 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Google Data Studio</p>
+              <p className="font-bold text-xl">Google Data Studio</p>
               <p className="mt-4 text-left">
                 Gather all your primary- and secondary data sources in one powerful dashboard
                 tailored to your unique business needs. Never loose sight of important insights again.
@@ -146,9 +146,9 @@ const Index = () => (
       }
       secondarySlot={<SvgCharts />}
     />
-    <section id="stats" className="py-20 lg:pt-10 bg-gray-200">
+    <section id="stats" className="py-20 lg:pt-10 bg-grey-200">
       <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
+        <LabelText className="text-gray-600 text-semibold">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
             <StatsBox primaryText="+81.75%" secondaryText="Revenue increase" />

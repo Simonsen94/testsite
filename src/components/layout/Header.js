@@ -11,25 +11,30 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        <Link to="/" style={{ color: "black" }}>SME Analyst</Link>
+        <Link to="/" style={{ color: "black" }}>
+          SME Analyst
+        </Link>
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#services">
+        <Link to="/" style={{ color: "black" }} className='px-4'>
+          Home
+        </Link>
+        <Link to="/services" style={{ color: "black" }} className="px-4">
           Services
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#blog">
+        </Link>
+        <Link to="/blog" style={{ color: "black" }} className="px-4 font-semibold">
           Blog
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        </Link>
+        <AnchorLink className="px-4" style={{ color: "black" }} href="#stats">
           Stats
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        <AnchorLink className="px-4" style={{ color: "black" }} href="#testimonials">
           Testimonials
         </AnchorLink>
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">
-          <Link to="/contact" class="text-white">
+          <Link to="/contact" style={{ color: "white" }}>
             Get in contact
           </Link>
         </Button> 
