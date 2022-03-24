@@ -23,8 +23,8 @@ const Index = () => (
             The SME Analyst provide expert knowledge on key features of the Google Marketing Platform
             and how SMEs can leverage these to grow their digital business.
           <br/><br/>
-            I help SMEs scale digitally on both the B2B and B2C market. 
-            I provide eCommerce Manager Knowledge to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
+            I primarily write blogs about Google Analytics and Google Optimize. 
+            Furthermore, I provide eCommerce Knowledge to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
             the short, medium and long term.
           </p>
           <div class="py-4">
