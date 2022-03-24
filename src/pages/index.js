@@ -164,7 +164,7 @@ const Index = () => (
     </section>
     <section id="testimonials" className="py-20 lg:py-20">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-4 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -174,7 +174,7 @@ const Index = () => (
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section className="container mx-auto my-18 py-20 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
       <p className="mt-8 text-xl font-light">
         Download a FREE copy of the LEAN CRO Model and learn how it can help your organization double 
