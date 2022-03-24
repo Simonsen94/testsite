@@ -24,8 +24,7 @@ const Index = () => (
             and how SMEs can leverage these to grow their digital business.
           <br/><br/>
             I primarily write blogs about Google Analytics and Google Optimize. 
-            Furthermore, I provide eCommerce Knowledge to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b> in 
-            the short, medium and long term.
+            Furthermore, I provide eCommerce Knowledge to make your SME <b>data-driven</b>, <b>customer-centric</b> and <b>profitable</b>.
           </p>
           <div class="py-4">
             <Button>
