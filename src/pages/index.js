@@ -50,7 +50,7 @@ const Index = () => (
               <p className="font-bold text-xl">Google Analytics</p>
               <p className="mt-4 text-left">
                 Activate your customer data and monitor your website performance closely to ensure 
-                it meets your KPI's. I help with everything from weekly reports to thorough commercial 
+                it meets your KPI's. GA helps with quick insights to thorough commercial 
                 analyses.
               </p>
             </Card>
