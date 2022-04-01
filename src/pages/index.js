@@ -57,11 +57,11 @@ const Index = () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-bold text-xl">Usability testing</p>
+              <p className="font-bold text-xl">Google Tag Manager</p>
               <p className="mt-4 text-left">
-                Discover up to 80% of your websites usability errors. Understand why and where 
-                your customers experience frictions and how to increase website satisfaction 
-                and conversions. 
+                Take your insights to the next level with customized event tagging. Using the 
+                strenghts of GTM can both reduce time to track your campaigns and 
+                lower your developer costs.
               </p>
             </Card>
           </div>

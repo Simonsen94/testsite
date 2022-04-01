@@ -1,9 +1,27 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import Card from '../components/Card';
+import Button from '../components/Button';
+import { Link } from 'gatsby';
 
 const Blog = () => (
   <Layout>
+    <section className="container mx-auto my-18 py-20 bg-gray-200 rounded-lg text-center">
+      <div className="text-center lg:ml-8 lg:text-left lg:w-4/5"> 
+        <h3 className="text-5xl lg:text-5xl font-semibold">Wow, cool, I did not know that - That is just what I needed!</h3>
+        <p className="mt-6 text-xl font-light">
+          If any of those thoughts appear in your mind after you have read one of my blog posts - then 
+          I have succeeded. I dedicate my time to only provide you with the very best within eCommerce.
+        </p>
+        <div className="mt-6">
+          <Button size="l">
+            <Link to="/blog" style={{ color: "white" }}>
+              Show me the blogs
+            </Link>
+          </Button>
+        </div>
+      </div>
+    </section>
     <section className="pt-10 md:pt-30">
       <div className="container center mx-auto px-8">
         <Card>
