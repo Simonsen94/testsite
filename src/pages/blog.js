@@ -8,7 +8,7 @@ const Blog = () => (
   <Layout>
     <section className="container mx-auto my-18 py-20 bg-gray-200 rounded-lg text-center">
       <div className="text-center lg:ml-8 lg:text-left lg:w-4/5"> 
-        <h3 className="text-5xl lg:text-5xl font-semibold">Wow, cool, I did not know that - That is just what I needed!</h3>
+        <h3 className="text-2xl lg:text-5xl font-semibold">Wow, cool, I did not know that - That is just what I needed!</h3>
         <p className="mt-6 text-xl font-light">
           If any of those thoughts appear in your mind after you have read one of my blog posts - then 
           I have succeeded. I dedicate my time to only provide you with the very best within eCommerce.
