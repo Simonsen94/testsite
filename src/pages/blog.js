@@ -6,7 +6,7 @@ import { Link } from 'gatsby';
 
 const Blog = () => (
   <Layout>
-    <section className="container mx-auto my-18 py-20 bg-gray-200 rounded-lg text-center">
+    <section className="container mx-auto bg-gray-200 rounded-lg text-center">
       <div className="text-center lg:ml-8 lg:text-left lg:w-4/5"> 
         <h3 className="text-2xl lg:text-5xl font-semibold">Wow, cool, I did not know that - That is just what I needed!</h3>
         <p className="mt-6 text-xl font-light">
