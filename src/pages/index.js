@@ -145,7 +145,7 @@ const Index = () => (
       }
       secondarySlot={<SvgCharts />}
     />
-    <section id="stats" className="py-20 lg:pt-10 bg-grey-200">
+    <section id="stats" className="py-20 lg:pt-10 bg-gray-200">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600 text-semibold">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
